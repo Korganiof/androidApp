@@ -11,18 +11,10 @@ import android.widget.TextView;
 public class DisplayMessageActivity extends ActionBarActivity {
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        // saadaan viesti Intentiltä
-        Intent intent = getIntent();
-        String message = intent.getStringExtra(MyActivity.EXTRA_MESSAGE);
-
-        //luodaan text näkymä
-        TextView textView = new TextView(this);
-        textView.setTextSize(40);
-        textView.setText(message);
-        setContentView(textView);
     }
 
 

@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">lottoAndroid</string>
     <string name="edit_message">Enter a message</string>
-    <string name="add_numbers">Syötä numerot</string>
+    <string name="edit_message2">Lähetä viesti</string>
+    <string name="lottoRivi">Sinun lottorivisi</string>
 
-    <string name="button_numbers">Lähetä numerot vertailuun</string>
+
+
+
 
     <string name="button_send">Send</string>
 
